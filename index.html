@@ -46,29 +46,32 @@
       <section
         class="container-fluid d-flex align-items-center justify-content-center"
       >
-        <form>
+        <form id="formulario">
           <div class="mb-3">
             <label for="inputName" class="form-label"
               >Nombre completo del alumno</label
             >
+            <p id="nombre-exit"></p>
             <input
               type="text"
               class="form-control"
               id="inputName"
-              value="alumno alumnito"
+              value="Juan Perez"
             />
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
+            <p class="" id="email-exit"></p>
             <input
               type="email"
               class="form-control"
               id="email"
-              value="alumno@unahur.edu.ar"
+              value="juanperez@unahur.edu.ar"
             />
           </div>
           <div class="mb-3">
             <label for="inputDNI" class="form-label">DNI</label>
+            <p id="dni-exit"></p>
             <input
               type="number"
               class="form-control"
@@ -93,6 +96,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"
-    ></script>
+    ></script>  
+    <script src="../recursos/js/script-perfil.js" defer></script>
   </body>
 </html>
